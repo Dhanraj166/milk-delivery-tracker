@@ -1,0 +1,74 @@
+.customer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.customer-card {
+  background: white;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-card .info strong {
+  font-size: 16px;
+  color: #1a1a2e;
+}
+
+.customer-card .info p {
+  font-size: 13px;
+  color: #777;
+  margin-top: 2px;
+}
+
+.customer-card .details {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.customer-card {
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.delivery-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-delivered,
+.btn-skipped {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.btn-delivered {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.btn-delivered:hover {
+  background-color: #b8e6c1;
+}
+
+.btn-skipped {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.btn-skipped:hover {
+  background-color: #f3b8bd;
+}
+
+.links{
+  text-decoration: none;
+}

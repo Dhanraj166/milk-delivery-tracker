@@ -1,0 +1,68 @@
+.customer-header {
+  margin-bottom: 20px;
+}
+
+.customer-header p {
+  color: #555;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.section-title {
+  margin-bottom: 12px;
+  margin-top: 24px;
+}
+
+.bill-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 32px;
+  max-width: 500px;
+}
+
+.bill-card .bill-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-card .bill-label {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.bill-card .bill-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.history-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.history-item {
+  background: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.status-delivered {
+  color: #155724;
+  font-weight: 500;
+}
+
+.status-skipped {
+  color: #721c24;
+  font-weight: 500;
+}

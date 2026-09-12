@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #2d2d2d;
+}
+
+h1, h2, h3 {
+  color: #1a1a2e;
+}

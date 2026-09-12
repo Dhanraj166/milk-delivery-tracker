@@ -1,0 +1,35 @@
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page-header h2 {
+  font-size: 24px;
+  color: #1a1a2e;
+}
+
+.page-subtitle {
+  color: #888;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.empty-state {
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  color: #888;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
