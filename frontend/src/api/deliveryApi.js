@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api/delivery-logs'
+const BASE_URL = 'https://milk-delivery-tracker.onrender.com/api/delivery-logs'
 
 // Mark delivery (or update it) for a customer on a specific date
 export const markDelivery = (customerId, date, delivered) => {

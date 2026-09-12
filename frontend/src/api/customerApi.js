@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api/customers'
+const BASE_URL = 'https://milk-delivery-tracker.onrender.com/api/customers'
 
 // Get all customers
 export const getAllCustomers = () => {

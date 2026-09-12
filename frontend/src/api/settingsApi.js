@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api/settings'
+const BASE_URL = 'https://milk-delivery-tracker.onrender.com/api/settings'
 
 // Get current prices
 export const getCurrentPrices = () => {

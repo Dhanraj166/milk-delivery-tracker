@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api/dashboard'
+const BASE_URL = 'https://milk-delivery-tracker.onrender.com/api/dashboard'
 
 // Get summary for a given year/month
 export const getDashboardSummary = (year, month) => {
