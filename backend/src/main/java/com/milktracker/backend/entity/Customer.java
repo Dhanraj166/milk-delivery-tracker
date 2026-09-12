@@ -30,10 +30,6 @@ public class Customer {
         this.rate = rate;
     }
 
-	public Customer(String string, String string2, double qty, double rate2) {
-		// TODO Auto-generated constructor stub
-	}
-
 	public Long getId() {
         return id;
     }
