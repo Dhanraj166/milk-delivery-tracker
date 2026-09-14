@@ -70,10 +70,15 @@ Frontend runs on `http://localhost:5173`
 - Debugging real full-stack issues: CORS, package/compilation mismatches, null-data edge cases
 
 ## Screenshots
-![Setting page](image.png)
 
-![Dashboard page](image-1.png)
+1. Dashboard
+![Dashboard page](frontend/assets/image-1.png)
 
-![Customers](image-2.png)
+2. Customers (all)
+![Customers](frontend/assets/image-2.png)
 
-![Customer Detailes](image-3.png)
+3. Customer Detailes (Induvidual)
+![Customer Details](frontend/assets/image-3.png)
+
+4. Setting
+![Setting page](frontend/assets/image.png)
